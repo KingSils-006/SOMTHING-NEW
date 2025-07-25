@@ -1,14 +1,6 @@
-// Navigation background on scroll
-window.addEventListener('scroll', function () {
-    const navbar = document.querySelector('header');
-    // conditional statement
-    if (window.scrollY > 0) {
-        navbar.classList.add('scroll-bar');
+const mobileMenu = document.getElementById('mobile-menu');
+const navList = document.querySelector('.nav-list');
 
-    } else {
-        navbar.classList.remove('scroll-bar');
-    }
-
-
-}
-);
+mobileMenu.addEventListener('click', () => {
+    navList.classList.toggle('active');
+});

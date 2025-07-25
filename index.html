@@ -5,217 +5,270 @@
     <meta charset="UTF-8">
     <title>Crypto Mania</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="img.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-        #watermark {
-            position: fixed;
-            align-items: center;
-            bottom: 0;
-            right: 0;
-            opacity: 0.1;
-            font-size: 500px;
-            /* color: #aaa; */
-            z-index: 1000;
-            height: 650px;
-            width: 1800px;
-        }
-
-        #watermark-2 {
-            position: fixed;
-            align-items: center;
-            bottom: 0;
-            right: 0;
-            width: 1800%;
-            height: 650%;
-            object-fit: cover;
-            opacity: 0.1;
-            font-size: 500px;
-
-        }
-
-        /* #watermark img {
-            width: 100%;
-            height: 100%;
-
-            object-fit: cover;
-            position: fixed;
-            align-items: center;
-        } */
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <!-- <div class="image-text">Crypto Mania</div> -->
-    <!-- ===== Navbar ===== -->
-    <nav>
-
-        <div class="logo">
-            <h1>
-                <div id="watermark-4">Crypto Mania</div>
-            </h1>
-            <!-- <img src="logo/images logo.png" alt="Logo"> -->
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li>
-                        <a href="#">Pages ▾</a>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Tools ▾</a>
-                        <ul>
-                            <li><a href="#">Calculator</a></li>
-                            <li><a href="#">Prices</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-    </nav>
-
-    <!-- ===== Sections ===== -->
-    <section class="fade-in delay-1">
-        <h2>Welcome to <span style="color:gold;">Crypto Mania</span></h2>
-        <h3>Your Gateway to the Future of Finance</h3>
-        <p>Join us in revolutionizing the way you trade and invest in cryptocurrencies.</p>
-        <p>Explore how cryptocurrencies are transforming the world. Fast, decentralized, and secure.</p>
-        <div id="watermark">
-            <img src="images/images 6.jpeg" alt="">
+    <nav class="hero">
+        <div class="text">crypto Mania</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
         </div>
-        <p>Whether you're a beginner or an expert, our platform is designed for you.</p>
-        <p>Get real-time exchange rates, secure wallets, and expert market insights.</p>
-        <p>Join our community of crypto enthusiasts and start your journey today.</p>
-        <a href="#" class="btn">Get Started</a>
-        <!-- <img src="images/images 6.jpeg" alt=""> -->
-    </section>
-    <div class id="about-section">
-        <section class="fade-in delay-2">
-            <h2>About Our Platform</h2>
-            <div id="watermark-3">
-                <img src="images/download 2.jpeg" alt="">
-            </div>
-            <p>Cryptos is designed to make crypto trading easy and accessible for everyone. No hidden fees, no stress.
-            </p>
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero-content">
+        <h1>Welcome to Crypto Mania</h1>
+        <p>Your Gateway to the Future of Finance
+            Join us in revolutionizing the way you trade and invest in cryptocurrencies.
+            Explore how cryptocurrencies are transforming the world. Fast, decentralized, and secure.
+        </p>
 
-            <a href="#" class="btn">Learn More</a>
-        </section>
+
+        <a href="" class="btn">Join Us <i class="fas fa-chevron-right"></i></a>
     </div>
-    <section class="fade-in delay-3">
-        <h2>Transparent & Secure</h2>
-        <div id="image overlay">
-            <img src="images/images 7.webp" alt="">
-            <!-- </div> -->
 
-            <p>We provide real-time exchange rates, secure wallets, and expert market insights at your fingertips.</p>
-            <a href="#" class="btn">Join Now</a>
+
+
+    <!-- Text -->
+    <section class="wrapper">
+        <div class="container">
+            <h2>Let's Dive <span style="color: lightslategray; display: block;">the Finance of the Future</span></h2>
+        </div>
+        <p class="lead">
+            Discover how blockchain technology and digital assets are reshaping the global economy. At Crypto Mania, we
+            empower you to take control of your financial future with secure, fast, and transparent crypto solutions.
+        </p>
     </section>
 
-    <!DOCTYPE html>
-    <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Services Section</title>
-        <link rel="stylesheet" href="styles.css">
-        <!-- Font Awesome for icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    </head>
-
-    <body>
-        <section class="services">
-            <div class="service">
-                <div class="icon"><i class="fab fa-bitcoin"></i></div>
-                <h3>Trading experts Availability</h3>
-                <p>"Trading experts possess in-depth knowledge and skills to navigate complex markets and guide you
-                    through the trading process to experience greatness at it's. They:
-
-                    1. Analyze trends and patterns
-                    2. Develop strategies for risk management
-                    3. Stay up-to-date with market news and analysis
-                    4. Provide insights and guidance for informed decision-making
-
-                    Whether you're a beginner or experienced trader, learning from experts can help you:
-
-                    1. Improve trading skills
-                    2. Enhance market understanding
-                    3. Develop effective strategies
-                    4. Achieve trading goals
-
-                    Consider following reputable trading experts, attending webinars, or taking courses to elevate your
-                    trading knowledge."</p>
+    <!-- Icons -->
+    <section id="services" class="icons">
+        <div class="flex-items">
+            <div>
+                <i class="fa-solid fa-coins fa-2x"></i>
+                <div>
+                    <h3>Crypto Trading or wallet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt quidem voluptate
+                        ducimus iure ex!</p>
+                </div>
             </div>
-            <div class="service">
-                <div class="icon"><i class="fas fa-smile"></i></div>
-                <h3>Exquisite Customer Services</h3>
-                <p>"Great customer service is about building trust and loyalty. Key principles include:
-
-                    1. Active listening
-                    2. Empathy
-                    3. Timely responses
-                    4. Personalization
-                    5. Follow-up
-
-                    Benefits include increased loyalty, positive word-of-mouth, and a competitive advantage. Invest in
-                    training, leverage
-                    technology, and collect feedback to deliver exceptional service."!</p>
+            <div>
+                <i class="fa-solid fa-chart-line fa-2x"></i>
+                <div>
+                    <h3>Market trends, analytics, or growth</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt quidem voluptate
+                        ducimus iure ex!</p>
+                </div>
             </div>
-            <div class="service">
-                <div class="icon"><i class="fas fa-dollar-sign"></i></div>
-                <h3>Tax & Custodial of Crypto/h3>
-                    <p>"Create a comprehensive guide to cryptocurrency taxation and custodial solutions, including best
-                        practices for tracking
-                        transactions, reporting income, and ensuring compliance with regulatory requirements."</p>
+            <div>
+                <i class="fa-solid fa-exchange-alt fa-2x"></i>
+                <div>
+                    <h3>Exchange, trading or transactions</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt quidem voluptate
+                        ducimus iure ex!</p>
+                </div>
             </div>
-        </section>
-    </body>
+        </div>
+    </section>
 
-    </html>
 
+
+    <!-- About Us -->
+    <section id="about" class="solution flex-columns">
+        <div class="row">
+            <div class="column">
+                <div class="column-1">
+                    <img src="images/bg-2.png" alt="group image">
+                </div>
+            </div>
+            <div class="column">
+                <div class="column-2 bg-primary">
+                    <h2>Let Us Move into <span style="color: #222; display: block; text-align: center;">the world of
+                            crypto
+                        </span><span style="color: lightslategray; display: block; text-align: center;">together
+                        </span></h2>
+                    <p>
+                        Crypto Mania is dedicated to making cryptocurrency accessible to everyone. Our platform offers a
+                        seamless experience for buying, selling, and managing digital assets, whether you're a beginner
+                        or an expert.
+                    </p>
+                    <p>
+                        Join our growing community and explore innovative tools, real-time analytics, and top-notch
+                        security as you navigate the exciting world of crypto with confidence.
+                    </p>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Create Your Account</h3>
+                <p>Sign up quickly and securely to access your personal crypto dashboard.</p>
+            </div>
+            <div class="step">
+                <h3>2. Fund Your Wallet</h3>
+                <p>Deposit your preferred cryptocurrency or fiat to start trading instantly.</p>
+            </div>
+            <div class="step">
+                <h3>3. Trade & Grow</h3>
+                <p>Buy, sell, and exchange cryptocurrencies with real-time analytics and low fees.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <!-- Testimonial Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-heading">What Our Users Say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">
+                        "Crypto Mania made my first crypto investment easy and stress-free. The platform is intuitive
+                        and the support team is always there to help!"
+                    </p>
+                    <div class="testimonial-user">
+                        <img src="images/testimonials image 1.jpg" alt="User 1" class="testimonial-avatar">
+                        <span class="testimonial-name">Sade O.</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">
+                        "I love the real-time analytics and low fees. Trading has never been this smooth. Highly
+                        recommended for both beginners and pros!"
+                    </p>
+                    <div class="testimonial-user">
+                        <img src="images/testimonials image 3.jpg" alt="User 2" class="testimonial-avatar">
+                        <span class="testimonial-name">Olajumoke O.</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">
+                        "The security features give me peace of mind. Crypto Mania is my go-to platform for all things
+                        crypto."
+                    </p>
+                    <div class="testimonial-user">
+                        <img src="images/testimonials image 2.jpg" alt="User 3" class="testimonial-avatar">
+                        <span class="testimonial-name">Jewel Ogunkeyede.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>Is Crypto Mania secure?</h3>
+            <p>Yes, we use advanced encryption and security protocols to keep your assets and data safe.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How do I start trading?</h3>
+            <p>Simply create an account, fund your wallet, and you can begin trading immediately.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What cryptocurrencies are supported?</h3>
+            <p>We support all major cryptocurrencies including Bitcoin, Ethereum, and many more.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Is there customer support?</h3>
+            <p>Yes, our support team is available 24/7 to assist you with any questions or issues.</p>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Get the latest updates, news, and crypto tips delivered straight to your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact ">
         <div class="container container-sm">
             <h2 class="section-heading">Contact Us</h2>
             <p>
-                Have a Question? Leave your informaion below and we will get back to you as soon as possible.
+                Have a question or need support? Reach out to our team and we’ll get back to you as soon as possible.
             </p>
-            <form action="https://formspree.io/f/mzzvejzq" name="contact" method="post">
-                <div class="form-group">
-                    <label for="first-name">First Name</label>
-                    <input type="text" name="first-name" placeholder="First Name">
-                </div>
-                <div class="form-group">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" placeholder="Last Name">
+            <form action="https://formspree.io/f/mzzvejzq" name="contact" method="post" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="email">Email Address</label>
-                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="message" placeholder="Message"></textarea>
+                    <textarea name="message" id="message" placeholder="Type your message here..." required></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn">Send Message</button>
                 </div>
-
             </form>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-heading">Meet Our Team</h2>
+            <div class="team-list">
+                <div class="team-member">
+                    <img src="images/ofice man 1.jpg" alt="Team Member 1" class="team-avatar">
+                    <h4 class="team-name">Ogunkeyede Tolulope .O.</h4>
+                    <p class="team-role">Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/office-girl 1.png" alt="Team Member 2" class="team-avatar">
+                    <h4 class="team-name">Chidinma Manu</h4>
+                    <p class="team-role">Lead Developer</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/office man 3.jpg" alt="Team Member 3" class="team-avatar">
+                    <h4 class="team-name">Winner</h4>
+                    <p class="team-role">Blockchain Specialist</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/ofice girl 2.jpg" alt="Team Member 4" class="team-avatar">
+                    <h4 class="team-name">Oge Ogunkeyede</h4>
+                    <p class="team-role">UI/UX Designer</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/office man 4.jpg" alt="Team Member 4" class="team-avatar">
+                    <h4 class="team-name">Simi Ogunkeyede</h4>
+                    <p class="team-role">crypto Manager</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -236,23 +289,17 @@
                 <a href=""><i class="fab fa-facebook fa-2x"></i></a>
                 <a href=""><i class="fab fa-twitter fa-2x"></i></a>
                 <a href=""><i class="fab fa-instagram fa-2x"></i></a>
-                <!-- <a href=""><i class="fab fa-pinterest fa-2x"></i></a> -->
                 <a href=""><i class="fab fa-tumblr fa-2x"></i></a>
             </div>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
-
-    <!-- ===== Footer ===== -->
-    <!-- <footer>
-        <p>&copy; 2023 Crypto Mania. All rights reserved.</p>
-        <p>Follow us on:
-            <a href=" #">Facebook</a> |
-            <a href="#">Twitter</a> |
-            <a href="#">Instagram</a>
-        </p>
-    </footer> -->
-
+    <script>
+        document.getElementById('mobile-menu').onclick = function () {
+            document.querySelector('.nav-list').classList.toggle('active');
+        };
+    </script>
 </body>
 
 </html>
