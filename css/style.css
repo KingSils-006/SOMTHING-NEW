@@ -80,7 +80,7 @@ nav {
 
 /* Hero Content */
 .hero-content {
-  background: url(../images/images6.jpeg) no-repeat center center/cover;
+  background: url(../images/bitcoin\ 1.webp) no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
@@ -612,12 +612,6 @@ nav {
   }
   .team-member,
   .testimonial-item {
-    max-width: 100%;
-  }
-  .step,
-  .testimonial-item,
-  .team-member {
-    width: 100%;
     max-width: 100%;
   }
 }
